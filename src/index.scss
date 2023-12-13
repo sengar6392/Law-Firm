@@ -1,0 +1,14 @@
+$primaryColor:#1D1D1D;
+$secondaryColor:#E3B748;
+$colorBlack:#111111;
+$colorWhite:#FFFFFF;
+
+body {
+  margin: 0;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $primaryColor;
+  color: $colorWhite;
+}
+
