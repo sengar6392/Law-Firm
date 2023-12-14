@@ -4,6 +4,7 @@ import HeroSection from '../../components/heroSection/HeroSection'
 import { Box } from '@mui/material'
 import Introduce from '../../components/introduce/Introduce'
 import Achievements from '../../components/achievements/Achievements'
+import PracticeArea from '../../components/practiceArea/PracticeArea'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <HeroSection/>
         <Introduce/>
         <Achievements/>
+        <PracticeArea/>
     </Box>
   )
 }

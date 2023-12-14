@@ -15,9 +15,6 @@ const theme = createTheme({
     white:{
       main:"#FFFFFF",
     }
-    // secondary: "#E3B748",
-    // black: "#111111",
-    // white: "#FFFFFF",
   },
 });
 function App() {

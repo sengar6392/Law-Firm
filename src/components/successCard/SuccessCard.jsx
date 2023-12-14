@@ -22,6 +22,7 @@ const SuccessCard = () => {
         justifyContent: "center",
         alignItems: "start",
         flexDirection: "column",
+        borderRadius:"14px"
       }}
     >
       <Box
