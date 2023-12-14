@@ -1,0 +1,57 @@
+@import "../../index.scss";
+
+.message-logo {
+  opacity: 0.3;
+}
+.email-input {
+  background-color: $primaryColor;
+  color: $colorWhite;
+  opacity: 0.3;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 26.004px */
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+.btn {
+  background-color: $secondaryColor;
+  height: 100%;
+  width: 30%;
+  border-radius: 43px;
+  border: none;
+  cursor: pointer;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -10px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 162.523%; /* 26.004px */
+}
+
+.profile-img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  top: -20%;
+  z-index: 10;
+}
+.profile-img2 {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  top: -4%;
+}

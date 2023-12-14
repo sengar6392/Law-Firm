@@ -10,10 +10,14 @@
   font-style: normal;
   font-weight: 600;
   line-height: 162.523%;
+  .nav-link{
+    cursor: pointer;
+  }
 }
 .contact-now-btn {
   border: 2px solid $colorWhite;
   background-color: $colorBlack;
+  cursor: pointer;
   color: $colorWhite;
   text-align: center;
   font-family: Inter;
