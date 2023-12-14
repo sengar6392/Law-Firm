@@ -10,6 +10,7 @@ const Introduce = () => {
         alignItems: "center",
         px: "6rem",
         py: "2rem",
+        my:"4rem"
       }}
     >
       <Box

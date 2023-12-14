@@ -12,6 +12,9 @@ const theme = createTheme({
     black:{
       main:"#111111"
     },
+    white:{
+      main:"#FFFFFF",
+    }
     // secondary: "#E3B748",
     // black: "#111111",
     // white: "#FFFFFF",
