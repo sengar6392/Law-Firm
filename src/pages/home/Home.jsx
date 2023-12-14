@@ -5,6 +5,8 @@ import { Box } from '@mui/material'
 import Introduce from '../../components/introduce/Introduce'
 import Achievements from '../../components/achievements/Achievements'
 import PracticeArea from '../../components/practiceArea/PracticeArea'
+import ClientReviews from '../../components/clientReviews/ClientReviews'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         <Introduce/>
         <Achievements/>
         <PracticeArea/>
+        <ClientReviews/>
+        <Footer/>
     </Box>
   )
 }

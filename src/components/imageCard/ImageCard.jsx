@@ -1,7 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import "./imageCard.scss";
-import rectImg from "../../assets/Rectangle 3652.png";
 const ImageCard = ({ backgroudImage, title }) => {
   return (
     <Box
